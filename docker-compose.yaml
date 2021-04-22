@@ -1,0 +1,6 @@
+services:
+  ratings:
+    build: .
+    image: ghcr.io/pizzahuhthp9/bookinfo-details:dev
+    ports:
+      - "9080:9080"
